@@ -1,0 +1,25 @@
+.exp-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 90%;
+  margin: 1rem auto; /* center container horizontally */
+  text-align: left;   /* optional, nicer inside cards */
+}
+
+.experience-card {
+  flex: 1 1 350px;  /* cards themselves grow/shrink */
+  min-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  font-size: 0.9rem;
+  box-sizing: border-box;/* debug only */
+}
+
+.experience-card h3 {
+  color: rgb(142, 155, 250);
+  font-size: 1.1rem;
+  margin-bottom: 12
+}

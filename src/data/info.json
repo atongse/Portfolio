@@ -1,0 +1,180 @@
+{
+  "name": "Aditya Tongse",
+  "summary": "I am Backend Developer with 3 years of experience building FastAPI-based microservices, Docker, cloud automation pipelines, and CouchDB (NoSQL database), with exposure to LLM-powered backend services, CI/CD systems, and AWS.",
+  "title": "Backend Developer",
+  "experience_years": "2.5+",
+  "experience": [
+      {
+      "title": "Backend Engineer: Open Source Edge Platform",
+      "responsibilities": [
+        "Developed async RESTful APIs using Python and FastAPI",
+        "Implemented CRUD operations, data validation, and API communication",
+        "Integrated CouchDB for persistent storage",
+        "Optimized document schemas and queries improving retrieval performance by 40%",
+        "Built reusable FastAPI middleware for centralized error handling",
+        "Implemented structured logging and request validation",
+        "Followed REST standards and clean code practices",
+        "Used Git for version control",
+        "Used Docker containers to validate Python wheel compatibility"
+      ]
+      },
+
+      {
+      "title": "Backend Automation",
+      "responsibilities": [
+        "Automated weekly workflow to fetch CSV data from GitHub",
+        "Processed data via Open-Source Edge platform APIs",
+        "Uploaded generated output and posted results back to GitHub issues",
+        "Reduced processing errors by 45%",
+        "Saved more than 6 hours per week by eliminating manual work",
+        "Automated Artifactory access token rotation on a 90-day schedule",
+        "Eliminated credential expiration incidents",
+        "Migrated CI workflows from Travis CI to GitHub Actions",
+        "Triggered builds through OSE APIs and validated CI results"
+      ]
+    },
+
+    {
+      "title": "Inventory Management System",
+      "responsibilities": [
+        "Designed and developed a web-based Inventory Management System",
+        "Used Python, Flask, Jinja2, HTML, and CSS",
+        "Enabled real-time inventory tracking",
+        "Integrated barcode scanning using OpenCV and Pyzbar",
+        "Reduced manual data entry errors",
+        "Built relational database layer using SQLAlchemy",
+        "Implemented CRUD operations"
+      ]
+    }
+  ],
+
+  "skills": {
+    "programming": {
+      "languages": [
+        "Python",
+        "JavaScript",
+        "Golang"
+      ]
+    },
+
+    "backend": {
+      "frameworks": [
+        "FastAPI",
+        "Flask",
+        "Django"
+      ],
+      "concepts": [
+        "REST APIs",
+        "Microservices architecture"
+      ]
+    },
+
+    "databases": {
+      "nosql": [
+        "CouchDB"
+      ],
+      "relational": [
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "orm": [
+        "SQLAlchemy"
+      ],
+      "vector_databases": [
+        "ChromaDB"
+      ]
+    },
+
+    "ci_cd_devops": {
+      "cloud": [
+        "AWS (EC2, S3, RDS)"
+      ],
+      "containers": [
+        "Docker"
+      ],
+      "ci_cd": [
+        "GitHub Actions"
+      ],
+      "orchestration": [
+        "Kubernetes"
+      ],
+      "tools": [
+        "GitHub"
+      ]
+    },
+
+    "automation_scripting": {
+      "tools": [
+        "Linux",
+        "Bash",
+        "API Automation"
+      ]
+    },
+
+    "frontend": {
+      "technologies": [
+        "ReactJS",
+        "HTML",
+        "CSS"
+      ]
+    },
+
+    "ai_ml": {
+      "libraries": [
+        "NumPy",
+        "Pandas",
+        "TensorFlow",
+        "Scikit-Learn"
+      ],
+      "llm_stack": [
+        "LLM",
+        "RAG",
+        "LangChain",
+        "ChromaDB",
+        "Embeddings",
+        "Ollama"
+      ]
+    }
+  },
+
+  "projects": [
+    {
+    "title": "LLM Question Answering chatbot with RAG.",
+      "responsibilities": [
+        "Designed RAG system for question answering over user-uploaded PDFs",
+        "Supported multiple documents with incremental vector indexing",
+        "Implemented PDF parsing and text chunking",
+        "Generated embeddings and stored them in ChromaDB",
+        "Performed semantic similarity search on embeddings",
+        "Integrated retrieved context with LLM using LangChain",
+        "Restricted responses strictly to document content",
+        "Returned explicit 'context not available' responses below similarity threshold",
+        "Reduced hallucinations",
+        "Built Streamlit UI for document upload and real-time querying"
+      ]
+    }
+    ,
+    {
+    "title": "Churn prediction ML model" ,
+      "responsibilities": [
+        "Built end-to-end ML-powered web application using Streamlit",
+        "Integrated pre-trained Logistic Regression model",
+        "Implemented categorical feature encoding using LabelEncoder",
+        "Displayed churn prediction and churn probability in real time"
+      ]
+    }
+  ],
+
+  "certifications": [
+    "AWS Certified Cloud Practitioner",
+    "Python Django: The Practical Guide (Udemy)",
+    "Python for Data Science Machine Learning Bootcamp (Udemy)",
+    "Kubernetes Certified Application Developer (Udemy)"
+  ],
+
+  "education": {
+    "degree": "B.Tech",
+    "institution": "Walchand Institute of Technology, Solapur",
+    "duration": "2019 – 2024"
+  }
+}
